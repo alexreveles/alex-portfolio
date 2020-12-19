@@ -1,17 +1,65 @@
-* {
-  margin:0px;
-  padding:0px;
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.menu {
+  background-color: black;
+  color: teal;
+  font-size: 18px;
+  style: underline;
+  width: 100%;
+  height: 50px;
+  margin: 0 0 0 0;
+  padding: 0;
+  vertical-align: middle;
+
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+.menu-items {
+  align: right;
+  float: right;
+}
+h1 {
+  font-size: 24px;
+  float: left;
+  
+}
+
+.header-graphic {
+  height: 200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.car-pic {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-me {
+  height: 200px;
+  width: 80%;
+  margin: 25px;
+  padding: 25px;
+}
+
+.work-section {
+  height: 400px;
+  width: 80%;
+  margin: 25px;
+  padding: 25px;
+}
+
+.contact-me {
+  height: 100px;
+  width: 80%;
+  margin: 25px;
+  padding: 25px;
+  float: left;
+}
+.contact-me-items {
+  float: right;
 }
