@@ -5,9 +5,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>my-first-website</title>
   <LINK href="styles.css" rel="stylesheet" type="text/css">
+    <title>Portfolio</title>
 </head>
 
 <body>
+  <header>
 
 <!----
 GIVEN I need to sample a potential employee's previous work
@@ -26,6 +28,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 -->
 
   <!----- navigation secion -->
+
 <div class="menu">
 <h1>ALEX REVELES</h1>  
 <div class="menu-items">
@@ -48,7 +51,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 <div class="about-me" id="about-me">
 
   <h2>About Me</h2>
-  <p>>About Me | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
+  <p class="about-me-items">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
       pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
       Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
       in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
@@ -56,24 +60,24 @@ THEN I am presented with a responsive layout that adapts to my viewport
       vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar vitae dolor.
       Integer eu nibh at nisi ullamcorper sagittis id vel leo. Integer feugiat 
       faucibus libero, at maximus nisl suscipit posuere. Morbi nec enim nunc. 
-      Phasellus bibendum turpis ut ipsum egestas, sed solli</p>
-  
+      Phasellus bibendum turpis ut ipsum egestas, sed solli
+  </p>
   
 </div>
 
 <!----- WORK  -->
-<div class="work-section" id="work-section">
+<div class="work-section vertical-class-line" id="work-section" >
 
   <h2>Work</h2>
 
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
+  <div class="grid-container">
+    <a href="https://ibb.co/dkS49Vr"><img src="https://i.ibb.co/SV2wTMP/runbuddy.png" alt="runbuddy" width="400" height="200"></a>
+    <a href=""><img src="https://www.w3schools.com/w3images/mac.jpg" alt="computer" width="200" height="200"></a>
+    <a href=""><img src=https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/08/html-cheat-sheet.jpg alt="html logo" width="200" height="200"></a>
+    <a href=""><img src=https://sharprocket.com.ph/wp-content/uploads/2018/06/html-cheat-sheet-beginners.jpg alt="cool laptop picture" width="200" height="200"></a>
+    <a href=""><img src=https://www.bcms.com/sites/default/files/images/articles/thumbs/software-developer.jpg alt="software developer" width="200" height="200"></a>
+  </div> 
 
-
-  
 </div>
 
 <!----- Contact info -->
@@ -82,11 +86,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
   <h2>Contact Me</h2> 
 
   <div class="contact-me-items">
-  <p> <a href="tel:8058161118">805-816-1118</a></p>
-  <p> <a href="mailto:alexreveles@yahoo.com">alexreveles@yahoo.com</a></p>
-  <p> <a href="https://github.com/alexreveles">github</a></p>
+    <p> <a href="tel:8058161118">805-816-1118</a></p>
+    <p> <a href="mailto:alexreveles@yahoo.com">alexreveles@yahoo.com</a></p>
+    <p> <a href="https://github.com/alexreveles">github</a></p>
   </div>
-</div>
 
+</div>
+</header>
 </body>
 </html>

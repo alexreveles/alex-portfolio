@@ -1,29 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  }
 html,body {
   margin:0;
   padding:0;
   overflow-x:hidden;
+  background-color:lightslategray;
+  font-family: sans-serif;
+  
 }
 
 .menu {
   background-color: black;
-  color: teal;
+  color: gray;
   font-size: 18px;
-  style: underline;
   width: 100%;
   height: 50px;
   margin: 0 0 0 0;
-  padding: 0;
+  padding: 10px;
   vertical-align: middle;
-
+  border: 10px solid grey;
+  
 }
 
 .menu-items {
   align: right;
   float: right;
+  padding: 20px;
+  margin: 20px;
 }
-h1 {
-  font-size: 24px;
+.h1 {
+  font-size: 10px;
   float: left;
+  
   
 }
 
@@ -40,26 +51,61 @@ h1 {
 }
 
 .about-me {
-  height: 200px;
+  height: 80px;
   width: 80%;
   margin: 25px;
   padding: 25px;
+  float:left;
+  line-height: 1.7;
+  font-size: 20px;
+  border-left: 3px solid red;
+  
+}
+
+.grid-container {
+  font-size: 10px;
+  float: left;
 }
 
 .work-section {
-  height: 400px;
+  height: 350px;
   width: 80%;
   margin: 25px;
   padding: 25px;
+  float: left;
+
+}
+.vertical-class-line {
+ border-left: 3px solid red;
+ height: 300px;
 }
 
 .contact-me {
   height: 100px;
   width: 80%;
-  margin: 25px;
+  margin: 2px;
   padding: 25px;
   float: left;
+  margin: 0;
 }
+
 .contact-me-items {
   float: right;
+  display: 
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  line-height: 50px;
+  border-left: 3px solid red;
+  background-color: black;
+  
 }
+.h2 {
+  font-weight: bold;
+  color: purple;
+  float: left;
+  display: flex;
+}
+
