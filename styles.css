@@ -69,11 +69,17 @@ html,body {
   object-fit: cover;
 }
 
+.headshot {
+  float: right;
+  max-width: 20%;
+  margin: 20px 0 20px 20px;
+}
+
 .about-me {
   height: 550px;
   width: 100%;
   padding-left: 30px;
-  background-image: url('../alexreveles.github.io/images/alex.jpeg');
+  /* background-image: url('../alexreveles.github.io/images/alex.jpeg'); */
 
 }
 
