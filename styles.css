@@ -71,8 +71,7 @@ html,body {
 
 .about-me {
   height: 550px;
-  width: 100%
-  float:left;
+  width: 100%;
   padding-left: 30px;
   background-image: url('../alexreveles.github.io/images/alex.jpeg');
 
