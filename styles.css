@@ -70,7 +70,8 @@ html,body {
 }
 
 .about-me {
-  height: 80px;
+  height: 550px;
+  width: 100%
   float:left;
   padding-left: 30px;
   background-image: url('../alexreveles.github.io/images/alex.jpeg');
@@ -96,7 +97,9 @@ html,body {
 .about-me-items {
 font-size: 12px;
 line-height: 1.7;
-
+text-align: centert;
+padding: 20px;
+margin-left: 30px;
 }
 
 .work-section {
@@ -214,13 +217,18 @@ line-height: 1.7;
   padding-left: 30px;
 }
 
-.contact-me-items {
+.contact-me-items a:hover {
   color: black;
   text-decoration: none;
   padding: 25px;
 }
 
 .nav-bottom {
-  float:right;
-  display: flex;
+  float:bottom;
+  padding: 50px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 1em; 
 }

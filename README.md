@@ -1,37 +1,15 @@
 # My Portfolio
 
-# Screenshot of final product - https://courses.bootcampspot.com/courses/469/files/391370/download
+## Purpose 
+A Portfolio for future employers to see my skills and projects.
 
-# Github URL - https://github.com/alexreveles/alexreveles.github.io
+## Built With
+* HTML
+ *CSS
 
-<!-- # Here is a link to my Portfolio - https://alexreveles.github.io/ -->
+# Website 
+ https://github.com/alexreveles/alexreveles.github.io
 
+ ## Contribution 
 
-Notes from Developer
-
-1. Chose to do 5 different parent DIVs, in order to encapsulate the sections cleanly
-2. Chose to do only a couple of commits because most of the code was CSS and not huge file changes
-3. Chose to upload all my images for example of the car to Host Image Bucket.  
-4. Faced challenges with Absolute Positioning but got a hang of it towards the end of the assignment. 
-
-***User Story**
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-
-***Acceptance Criteria***
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+ Alex Reveles
