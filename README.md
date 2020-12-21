@@ -4,6 +4,9 @@
 
 # Github URL - https://github.com/alexreveles/alexreveles.github.io
 
+# Here is a link to my Portfolio - https://alexreveles.github.io/
+
+
 Notes from Developer
 
 1. Chose to do 5 different parent DIVs, in order to encapsulate the sections cleanly

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>My Portfolio</title>
   <LINK href="styles.css" rel="stylesheet" type="text/css">
 
@@ -10,127 +11,122 @@
 
 <body>
 
-<!----
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
--->
-
   <!----- navigation secion -->
 
-<div class="menu">
+  <div class="menu">
 
-  <h1>ALEX REVELES</h1>  
-  <div class="menu-items">
+    <h1>ALEX REVELES</h1>
+    <div class="menu-items">
       <a class="nav" href="#about-me">About Me</a>
       <a class="nav" href="#work-section">Work</a>
       <a class="nav" href="#contact-me">Contact Me</a>
+      <a class="nav" href="#contact-me">Resume</a>
+      
+    </div>
+
   </div>
 
-</div>
 
+  <!----- HEADER WITH -->
+  <div class="header-graphic">
 
-<!----- HEADER WITH -->
-<div class="header-graphic">
-
-  <img class="car-pic" src="https://i.ibb.co/t834b9S/90-BB9803-B0-CB-4606-98-E4-E011-B37-F8-BD9-329-FE080-6-AB2-4-C91-B97-D-338735-EB7-F79.jpg" alt="90-BB9803-B0-CB-4606-98-E4-E011-B37-F8-BD9-329-FE080-6-AB2-4-C91-B97-D-338735-EB7-F79" border="0">
-  <div class="header-graphic-title">
-    <h2>Portfolio</h2>
+    <img class="car-pic"
+      src="https://i.ibb.co/t834b9S/90-BB9803-B0-CB-4606-98-E4-E011-B37-F8-BD9-329-FE080-6-AB2-4-C91-B97-D-338735-EB7-F79.jpg"
+      alt="car picture">
+    <div class="header-graphic-title">
+      <h2>Portfolio</h2>
+    </div>
   </div>
-</div>
 
-<!----- ABOUT ME -->
-<div class="about-me" id="about-me">
+  <!----- ABOUT ME -->
+  <div class="about-me" id="about-me">
 
-  <div class="section-title">
-    <h2>About Me</h2>
+    <div class="section-title">
+      <h2>About Me</h2>
+    </div>
+    <div class="about-me-text">
+      <p class="about-me-items">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros,
+        pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.
+        Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex,
+        in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
+        per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut
+        vestibulum.
+      </p>
+    </div>
   </div>
-  <div class="about-me-text">
-  <p class="about-me-items">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
-      pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
-      Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
-      in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
-      per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut 
-      vestibulum. 
-  </p>
-  </div>
-</div>
 
-<!----- WORK  -->
-<div class="work-section vertical-class-line" id="work-section" >
+  <!----- WORK  -->
+  <div class="work-section vertical-class-line" id="work-section">
 
     <div class="section-title">
       <h2>Work</h2>
     </div>
 
-  <div class="grid-container">
+    <div class="grid-container">
 
       <div class="grid-container image-1">
-      <a href="https://ibb.co/dkS49Vr">
-        <img src=https://www.bcms.com/sites/default/files/images/articles/thumbs/software-developer.jpg alt="software developer" width="400" height="200">
-      </a>
-      <div class="text-block item-1">
-        <h3>Surf Report</h3>
-        <p>Mern Stack</p>
-      </div>
+        <a href="https://ibb.co/dkS49Vr">
+          <img src=https://www.bcms.com/sites/default/files/images/articles/thumbs/software-developer.jpg
+            alt="software developer" width="400" height="200">
+        </a>
+        <div class="text-block item-1">
+          <h3>Surf Report</h3>
+          <p>Mern Stack</p>
+        </div>
       </div>
       <div class="grid-container image-2">
-      <a href=""><img src="https://www.w3schools.com/w3images/mac.jpg" alt="computer" width="200" height="95"></a>
-      <div class="text-block item-2">
-        <h3>Calculator</h3>
-        <p>React/JavaScript/CSS</p>
-      </div>
+        <a href=""><img src="https://www.w3schools.com/w3images/mac.jpg" alt="computer" width="200" height="95"></a>
+        <div class="text-block item-2">
+          <h3>Calculator</h3>
+          <p>React/JavaScript/CSS</p>
+        </div>
       </div>
       <div class="grid-container image-3">
-      <a href=""><img src="https://images.immediate.co.uk/production/volatile/sites/4/2019/04/PIA21086-orig-80ad427.jpg?quality=90&resize=620%2C620" alt="galaxy" width="200" height="95"></a>
-      <div class="text-block item-3">
-        <h3>LED Wall</h3>
-        <p>Node/</p>
-      </div>
+        <a href=""><img
+            src="https://images.immediate.co.uk/production/volatile/sites/4/2019/04/PIA21086-orig-80ad427.jpg?quality=90&resize=620%2C620"
+            alt="galaxy" width="200" height="95"></a>
+        <div class="text-block item-3">
+          <h3>LED Wall</h3>
+          <p>Node/</p>
+        </div>
       </div>
       <div class="grid-container image-4">
-      <a href=""><img src=https://sharprocket.com.ph/wp-content/uploads/2018/06/html-cheat-sheet-beginners.jpg alt="cool laptop picture" width="195" height="200"></a>
-      <div class="text-block item-4">
-        <h3>Pastel Puzzels</h3>
-        <p>MERN Stack</p>
-      </div>
+        <a href=""><img src=https://sharprocket.com.ph/wp-content/uploads/2018/06/html-cheat-sheet-beginners.jpg
+            alt="cool laptop picture" width="195" height="200"></a>
+        <div class="text-block item-4">
+          <h3>Pastel Puzzels</h3>
+          <p>MERN Stack</p>
+        </div>
       </div>
       <div class="grid-container image-5">
-      <a href="https://github.com/alexreveles/run-buddy"><img src=https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/08/html-cheat-sheet.jpg alt="html logo" width="195" height="200"></a>
-      <div class="text-block item-5">
-        <h3>Run Buddy</h3>
-        <p>CSS/HTML</p>
+        <a href="https://github.com/alexreveles/run-buddy"><img
+            src=https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/08/html-cheat-sheet.jpg
+            alt="html logo" width="195" height="200"></a>
+        <div class="text-block item-5">
+          <h3>Run Buddy</h3>
+          <p>CSS/HTML</p>
+        </div>
       </div>
-      </div>
-  </div> 
-
-</div>
-
-<!----- Contact info -->
-<div class="contact-me" id="contact-me">
-  
-    <div class="section-title">
-      <h2>Contact Me</h2> 
     </div>
 
-  <div class="contact-me-items">
-     <a class="nav" href="tel:8058161118">805-816-1118</a>
-     <a class="nav" href="mailto:alexreveles@yahoo.com">Alexreveles@yahoo.com</a>
-<a class="nav"href="https://github.com/alexreveles">Github</a>
   </div>
 
-</div>
+  <!----- Contact info -->
+  <div class="contact-me" id="contact-me">
+
+    <div class="section-title">
+      <h2>Contact Me</h2>
+    </div>
+
+    <div class="contact-me-items">
+      <a class="nav" href="tel:8058161118">805-816-1118</a>
+      <a class="nav" href="mailto:alexreveles@yahoo.com">Alexreveles@yahoo.com</a>
+      <a class="nav" href="https://github.com/alexreveles">Github</a>
+    </div>
+
+  </div>
 
 </body>
+
 </html>
