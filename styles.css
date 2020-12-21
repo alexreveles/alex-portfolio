@@ -19,7 +19,6 @@ html,body {
 } 
 
 .menu-items {
-  align: right;
   float: right;
   position: relative;
   top: -55px;
@@ -106,7 +105,7 @@ line-height: 1.7;
   padding-left: 30px;
   padding-top: 50px;
 } 
-
+/* start herer*/
 .grid-container  {
   width: 70%;
   float: right;
@@ -169,7 +168,7 @@ line-height: 1.7;
   right: -155px;
   top: -430px;
 }
-
+/* end here */
 .text-block {
   background-color: rgba(0, 0, 0, 0.5);
   color: white; 
@@ -215,12 +214,13 @@ line-height: 1.7;
   padding-left: 30px;
 }
 
-.contact-me-items a {
-  display: inline;
-  position: relative;
-  right: 220px;
-  top: 30px;
+.contact-me-items {
   color: black;
   text-decoration: none;
   padding: 25px;
+}
+
+.nav-bottom {
+  float:right;
+  display: flex;
 }
