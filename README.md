@@ -4,7 +4,7 @@
 
 # Github URL - https://github.com/alexreveles/alexreveles.github.io
 
-# Here is a link to my Portfolio - https://alexreveles.github.io/
+<!-- # Here is a link to my Portfolio - https://alexreveles.github.io/ -->
 
 
 Notes from Developer
