@@ -48,7 +48,7 @@ html,body {
 }
 
 .header-graphic-title {
-  align: right;
+  text-align: right;
   float: right;
   position: relative;
   top: -95px;
@@ -79,30 +79,27 @@ html,body {
   height: 550px;
   width: 100%;
   padding-left: 30px;
-  /* background-image: url('../alexreveles.github.io/images/alex.jpeg'); */
-
 }
 
 .section-title {
   width: 15%;
   float:left;
   font-size: 20px;
-  border-right: 3px solid red;
+  border-right: 4px solid red;
 }
 
 .about-me-text {
   width: 70%;
-  align: right;
+  text-align: right;
   float: right;
   position: relative;
   right: 50px;
-  
 }
 
 .about-me-items {
 font-size: 12px;
 line-height: 1.7;
-text-align: centert;
+text-align: center;
 padding: 20px;
 margin-left: 30px;
 }
@@ -222,18 +219,17 @@ margin-left: 30px;
   padding-left: 30px;
 }
 
-.contact-me-items a:hover {
+ .contact-me-items a:hover {
   color: black;
   text-decoration: none;
   padding: 25px;
-}
+} 
 
 .nav-bottom {
-  float:bottom;
   padding: 50px;
   display: inline-block;
   text-decoration: none;
   color: white;
   font-weight: bolder;
   font-size: 1em; 
-}
+} 
