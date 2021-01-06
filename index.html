@@ -1,133 +1,73 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
 
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <body>
+    <!----- navigation secion -->
 
-</head>
-
-<body>
-
-  <!----- navigation secion -->
-
-  <div class="menu">
-
-    <h1>ALEX REVELES</h1>
-    <div class="menu-items">
-      <a class="nav" href="#about-me">About Me</a>
-      <a class="nav" href="#work-section">Work</a>
-      <a class="nav" href="#contact-me">Contact Me</a>
-      <a class="nav" href="#contact-me">Resume</a>
-      
+    <div class="menu">
+      <h1>ALEX REVELES</h1>
+      <div class="menu-items">
+        <a class="nav" href="#about-me">About Me</a>
+        <a class="nav" href="#work-section">Work</a>
+        <a class="nav" href="#contact-me">Contact Me</a>
+        <a class="nav" href="#contact-me">Resume</a>
+      </div>
     </div>
 
-  </div>
-
-
-  <!----- HEADER WITH -->
-  <div class="header-graphic">
-
-    <img class="car-pic"
-      src="images/carbonFiber.jpg"
-      alt="carbon fiber background">
-    <div class="header-graphic-title">
-      <h2>Portfolio</h2>
+    <!----- HEADER WITH -->
+    <div class="header-graphic">
+      <img
+        class="carbonfiber"
+        src="images/carbonFiber.jpg" width="100" height="250"
+        alt="carbon fiber background"
+      />
+      <div class="header-graphic-title">
+        <h2>Portfolio</h2>
+      </div>
     </div>
-  </div>
-  
-  <!----- ABOUT ME -->
-  <div class="about-me" id="about-me">
 
-    <div class="section-title">
-      <h2>About Me</h2>
-    </div>
-    <div class="about-me-text">
-      <img class="headshot" src="./images/alex.jpeg" />
-      <p class="about-me-items">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros,
-        pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.
-        Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex,
-        in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
-        per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut
-        vestibulum. 
+    <section>
+      <h2 id="about-me">About Me</h2>
+      <div>
+        <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
+        distinctio quisquam quam facere eveniet dolorum beatae, sit voluptatum.
+        Ad quo nobis rem nostrum assumenda architecto. Voluptates quibusdam in
+        at placeat.
       </p>
-    </div>
-  </div>
+      </div>
+    </section>
 
-  <!----- WORK  -->
-  <div class="work-section vertical-class-line" id="work-section">
-
-    <div class="section-title">
+    <section>
       <h2>Work</h2>
-    </div>
-
-    <div class="grid-container">
-
-      <div class="grid-container image-1">
-        <a href="https://ibb.co/dkS49Vr">
-          <img src="images/Dev_photo.jpg"
-            alt="software developer" width="400" height="200">
-        </a>
+      <div class="grid-container" id="work-section">
+        
+        <a class="grid-item large" id="work-box" href=""></a>
         <div class="text-block item-1">
-          <h3>Surf Report</h3>
-          <p>Mern Stack</p>
+          <h3>hello</h3>
+          <p>hi</p>
         </div>
+        <a class="grid-item1" id="work-box" href=""></a>
+        <a class="grid-item2" id="work-box" href=""></a>
+        <a class="grid-item3" id="work-box" href=""></a>
+        <a class="grid-item4" id="work-box" href=""></a>
       </div>
-      <div class="grid-container image-2">
-        <a href=""><img src="https://www.w3schools.com/w3images/mac.jpg" alt="computer" width="200" height="95"></a>
-        <div class="text-block item-2">
-          <h3>Calculator</h3>
-          <p>React/JavaScript/CSS</p>
-        </div>
-      </div>
-      <div class="grid-container image-3">
-        <a href=""><img
-            src="https://images.immediate.co.uk/production/volatile/sites/4/2019/04/PIA21086-orig-80ad427.jpg?quality=90&resize=620%2C620"
-            alt="galaxy" width="200" height="95"></a>
-        <div class="text-block item-3">
-          <h3>LED Wall</h3>
-          <p>Node/</p>
-        </div>
-      </div>
-      <div class="grid-container image-4">
-        <a href=""><img src=https://sharprocket.com.ph/wp-content/uploads/2018/06/html-cheat-sheet-beginners.jpg
-            alt="cool laptop picture" width="195" height="200"></a>
-        <div class="text-block item-4">
-          <h3>Pastel Puzzels</h3>
-          <p>MERN Stack</p>
-        </div>
-      </div>
-      <div class="grid-container image-5">
-        <a href="https://github.com/alexreveles/run-buddy"><img
-            src=https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2017/08/html-cheat-sheet.jpg
-            alt="html logo" width="195" height="200"></a>
-        <div class="text-block item-5">
-          <h3>Run Buddy</h3>
-          <p>CSS/HTML</p>
-        </div>
-      </div>
-    </div>
+    </section>
 
-  </div>
-
-  <!----- Contact info -->
-  <div class="contact-me" id="contact-me">
-
-    <div class="section-title">
+    <section>
       <h2>Contact Me</h2>
-    </div>
-  
-    <div class="contact-me-items">
-      <a class="nav-bottom" href="tel:8058161118">Tel: 805.816.1118</a>
-      <a class="nav-bottom" href="mailto:alexreveles@yahoo.com">Alexreveles@yahoo.com</a>
-      <a class="nav-bottom" href="https://github.com/alexreveles">Github</a>
-    </div>
+      <div class="contact-links" id="contact-me">
+        <a class="nav-bottom" href="tel:8058161118" style="text-decoration: none;">Tel: 805.816.1118</a>
+        <a class="nav-bottom" href="mailto:alexreveles@yahoo.com">Alexreveles@yahoo.com</a>
+        <a class="nav-bottom" href="https://github.com/alexreveles">Github</a>
+      </div>
+    </section>
 
-  </div>
-  
-</body>
-
+  </body>
 </html>
