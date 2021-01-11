@@ -29,7 +29,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(to right, #595555, #220122); 
+  background: linear-gradient(to right, #595555); 
 }
 
 

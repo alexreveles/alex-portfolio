@@ -1,16 +1,15 @@
-<!--. # My Portfolio
+ # My Portfolio
 
-<!--. ## Purpose 
-<!--. ##A Portfolio for future employers to see my skills and projects.
+ ##A Portfolio for future employers to see my skills and projects.
 
-<!--. ## Built With
-<!--. * HTML
-<!--. * CSS
-<!--. ### View my Portfolio here: https://alexreveles.github.io/  
+. ## Built With
+ * HTML
+ * CSS
+ ### View my Portfolio here: https://alexreveles.github.io/  
  
 
+![](./images/Portfolio.png)
 
+  ## Contribution 
 
- <!--. ## Contribution 
-
- <!--. Alex Reveles
+ ## Alex Reveles 
