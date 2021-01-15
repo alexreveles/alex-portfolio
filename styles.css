@@ -96,6 +96,13 @@ section div {
   grid-gap: 20px;
   margin: 10px;
 }
+
+
+#work-box, #text {
+  text-decoration: none;
+  font-family: monospace;
+}
+
 #work-box:hover {
 opacity: 1;
 transform: translateY(15px);
@@ -103,6 +110,7 @@ background: linear-gradient(top, #000, transparent);
 z-index: 2;
 transition: .05s;
 opacity: 0.5;
+
 /* filter: blur(10px); */
 }
 
@@ -147,6 +155,7 @@ opacity: 0.5;
   transition: .6s ease-out;
   box-shadow: 0 10px 10px rgba(0, 0, 0, .05);
 }
+
 
 .text-block {
   background-color: rgba(0, 0, 0, 0.5);
