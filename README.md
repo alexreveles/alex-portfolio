@@ -8,7 +8,7 @@
  ### View my Portfolio here: https://alexreveles.github.io/  
  
 
-![](./images/Portfolio.png)
+(./images/Portfolio.png)
 
   ## Contribution 
 
