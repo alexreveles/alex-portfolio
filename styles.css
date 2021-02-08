@@ -14,7 +14,6 @@ h1 {
 }
 
 
-
  .carbonfiber {
   width: 100%; 
   box-shadow: 0px 10px 20px -5px rgba(96, 15, 154, 0.8); 
@@ -77,10 +76,11 @@ section {
   align-items: center; 
 }
  #text {
-  color:white;
+  color:rgb(50, 2, 74);
   font-size: small;
   text-decoration: none;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 section h2 {
