@@ -70,6 +70,12 @@ h1 {
   opacity: 0.6;
   transition: 0.3s;
 }
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(39, 10, 46) , rgba(39, 36, 41, 0.762)); 
+}
 
 section {
   display: flex; 
@@ -169,7 +175,7 @@ section div {
 
 
 .grid-item.large {
-	background: url("http://placehold.it/1920x1080");
+	background: url("./images/happy-tails.png");
 	grid-column: span 2;
   grid-row: span 2;
   background-position: center center;
