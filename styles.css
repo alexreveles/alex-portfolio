@@ -152,7 +152,7 @@ section div {
 
 .grid-item1 {
 	min-height: 150px;
-  background: url("./images/weather\ dashboard.png");
+  background: url("./images/weather-dashboard.png");
   background-position: center center;
   background-size: cover;
   transition: .6s ease-out;
@@ -168,7 +168,7 @@ section div {
 }
 .grid-item3 {
 	min-height: 150px;
-  background: url("http://placehold.it/1920x1080");
+  background: url("http://placeholder.it/1920x1080");
   background-position: center center;
   background-size: cover;
   transition: .6s ease-out;
@@ -203,15 +203,6 @@ section div {
   transition: .6s ease-out;
   box-shadow: 0 10px 10px rgba(0, 0, 0, .05);
 }
-
-
-/* .text-block {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-size: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-} */
 
 .item-1 {
   position: absolute;
