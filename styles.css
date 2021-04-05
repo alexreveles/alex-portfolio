@@ -176,7 +176,7 @@ section div {
 }
 .grid-item4 {
 	min-height: 150px;
-  background: url("./images/Runbuddy.png");
+  background: url("");
   background-position: center center;
   background-size: cover;
   transition: .6s ease-out;
