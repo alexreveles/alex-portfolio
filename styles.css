@@ -168,7 +168,7 @@ section div {
 }
 .grid-item3 {
 	min-height: 150px;
-  background: url("http://placeholder.it/1920x1080");
+  background: url("./images/Dev_photo.jpg");
   background-position: center center;
   background-size: cover;
   transition: .6s ease-out;
