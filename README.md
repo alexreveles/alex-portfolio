@@ -22,10 +22,11 @@
 
   
   ## Questions
-    If you have any questions regarding my application, please contact me https://github.com/alexreveles or email: alexreveles@yahoo.com
+    If you have any questions regarding my application, please contact me https://github.com/alexreveles
+    email: alexreveles@yahoo.com
 
 ### https://alexreveles.github.io/
 ### https://github.com/alexreveles
 
 
-![](images/.gif.gif)
+![](./images/.gif.gif)
