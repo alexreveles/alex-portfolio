@@ -13,6 +13,26 @@ h1 {
   font-family: "book man old style";
 }
 
+.work-h3 {
+  font-size: 22px;
+  color:black;
+}
+.work-h4 {
+  font-size: 15px;
+  color:black;
+}
+
+.back-border {
+  background-color: rgba(63, 63, 67, 0.673);
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 
  .carbonfiber {
   width: 100%; 
@@ -132,7 +152,7 @@ section div {
 
 .grid-item1 {
 	min-height: 150px;
-  background: url("http://placehold.it/1920x1080");
+  background: url("./images/weather\ dashboard.png");
   background-position: center center;
   background-size: cover;
   transition: .6s ease-out;
@@ -140,7 +160,7 @@ section div {
 }
 .grid-item2 {
 	min-height: 150px;
-  background: url("http://placehold.it/1920x1080");
+  background: url("./images/workday-schedular.png");
   background-position: center center;
   background-size: cover;
   transition: .6s ease-out;
@@ -185,13 +205,13 @@ section div {
 }
 
 
-.text-block {
+/* .text-block {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   font-size: 10px;
   padding-left: 10px;
   padding-right: 10px;
-}
+} */
 
 .item-1 {
   position: absolute;
