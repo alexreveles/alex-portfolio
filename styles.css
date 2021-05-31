@@ -168,7 +168,7 @@ section div {
 }
 .grid-item3 {
 	min-height: 150px;
-  background: url("./images/Dev_photo.jpg");
+  background: url("./images/happy-tailsV2.png");
   background-position: center center;
   background-size: cover;
   transition: .6s ease-out;
@@ -185,7 +185,7 @@ section div {
 
 .grid-item5 {
 	min-height: 150px;
-  background: url("./images/happy-tailsV2.png");
+  background: url("./images/screenshot1.png");
   background-position: center center;
   background-size: cover;
   transition: .6s ease-out;
