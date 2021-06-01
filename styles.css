@@ -83,7 +83,7 @@ h1 {
 }
 
 .nav:hover {
-  color:rgba(85, 81, 87, 0.879);
+  color:#5a189a;
   font-family: monospace;
   font-size: xx-large;
   margin: 4px 2px;
@@ -168,7 +168,7 @@ section div {
 }
 .grid-item3 {
 	min-height: 150px;
-  background: url("./images/happy-tailsV2.png");
+  background: url("./images/happy-tails.png");
   background-position: center center;
   background-size: cover;
   transition: .6s ease-out;
@@ -194,7 +194,7 @@ section div {
 
 
 .grid-item.large {
-	background: url("./images/happy-tails.png");
+	background: url("./images/happy-tailsV2.png");
 	grid-column: span 2;
   grid-row: span 2;
   background-position: center center;
@@ -224,7 +224,7 @@ section div {
   font-weight: bold;
 }
 .nav-bottom:hover {
-  color:#746a8c;
+  color:#5a189a;
   font-family: monospace;
   font-size: xx-large;
   margin: 4px 2px;
