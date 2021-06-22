@@ -25,7 +25,7 @@
     If you have any questions regarding my application, please contact me https://github.com/alexreveles
     email: alexreveles@yahoo.com
 
-### https://alexreveles.github.io/
+### https://alexreveles.github.io/alex-portfolio/
 ### https://github.com/alexreveles
 
 
